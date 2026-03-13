@@ -1,5 +1,7 @@
 #include <stdio.h>
 
+// 1. Escreva um programa em C que leia dois números inteiros e imprima o mairo deles.
+
 int soma(int a, int b) {
     return a + b;
 }
