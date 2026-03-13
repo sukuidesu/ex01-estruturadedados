@@ -15,7 +15,7 @@ int main() {
     printf("Insira o valor do segundo número inteiro: ");
     scanf("%d", &numero2);
 
-    printf("A soma dos dois valores é %d", soma(numero1, numero2));
+    printf("A soma dos dois valores é %d\n", soma(numero1, numero2));
 
     return 0;
 }

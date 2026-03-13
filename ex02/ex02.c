@@ -8,9 +8,9 @@ int main() {
     scanf("%d", &idade);
 
     if (idade >= 16) {
-        printf("Você pode votar.");
+        printf("Você pode votar.\n");
     } else {
-        printf("Você não pode votar.");
+        printf("Você não pode votar.\n");
     };
 
     return 0;
