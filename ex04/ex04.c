@@ -10,25 +10,27 @@ int main() {
     char nome[30];
     char pesquisaConsulta[50];
 
-    printf("Escolha a ação que deseja realizar:\n");
-    printf("1 - Novo cadastro\n");
-    printf("2 - Consultar\n");
-    printf("3 - Sair\n");
-    scanf("%d", &escolhaMenu);
+    do {
+        printf("Escolha a ação que deseja realizar:\n");
+        printf("1 - Novo cadastro\n");
+        printf("2 - Consultar\n");
+        printf("3 - Sair\n");
+        scanf("%d", &escolhaMenu);
 
-    switch (escolhaMenu) {
-        case 1:
-            printf("Informe o nome para cadastro: ");
-            scanf("%s", &nome);
-            break;
+        switch (escolhaMenu) {
+            case 1:
+                printf("Informe o nome para caome[3dastro: ");
+                scanf("%s", &nome);
+                break;
         
-        case 2:
-            printf("Informe o que deseja consultar: ");
-            scanf("%s", &pesquisaConsulta);
-            break;
+            case 2:
+                printf("Informe o que deseja consultar: ");
+                scanf("%s", &pesquisaConsulta);
+                break;
         
-        default:
-            printf("Saindo agora...\n");
+            default:
+                printf("Saindo agora...\n");
+        }
     }
 
     return 0;
